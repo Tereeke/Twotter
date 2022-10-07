@@ -80,6 +80,7 @@ namespace Twotter.Areas.Identity.Pages.Account
             [Display(Name = "Name")]
             public string Name { get; set; }
             [Required]
+            [DataType(DataType.Date)]
             [Display(Name = "Date of Birth")]
             public DateTime DOB { get; set; }
             /// <summary>
